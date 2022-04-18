@@ -1,0 +1,3 @@
+fetched_files/*
+!fetched_files/placeholder.txt
+**/**/__pycache__
