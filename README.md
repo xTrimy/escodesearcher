@@ -9,6 +9,10 @@ Currently searching in a limited set of sites:
 * Tutorials Point
 * Programiz
 
+## Installation
+
+`pip install escodesearcher`
+
 ## Dependencies
 
 * requests - `pip install requests`
