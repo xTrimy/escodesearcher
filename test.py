@@ -13,6 +13,6 @@ from escodesearcher import SearchCode
 code_searcher = SearchCode()
 keyword = "Merge sort C++"
 
-for index,source_code in enumerate(code_searcher.search("Merge Sort C++")):
+for index, source_code in enumerate(code_searcher.search(keyword)):
     with open('fetched_files/'+str(index)+'.txt', 'w', encoding='utf8') as f:
         f.write(source_code)
