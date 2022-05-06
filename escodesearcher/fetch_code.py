@@ -7,11 +7,13 @@ except ImportError:
     print("No module named 'bs4' found")
     exit(0)
 
+
 class FetchCode:
     def __init__(self):
         super().__init__
+
     def fetch_code(self, url):
-        
+
         url_array = url.split('/')
         site_origin = ""
         if(url_array[0] == "https:" or url_array[0] == "http:"):

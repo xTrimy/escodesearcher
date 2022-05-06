@@ -6,3 +6,4 @@ fetched_files/*
 dist
 pyproject.toml
 setup.py
+.google-cookie
